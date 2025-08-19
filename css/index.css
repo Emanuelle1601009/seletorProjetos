@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#cabecalho{
+    height: 15vh;
+    width: 100vw;
+    
+}
+.corroxo{
+    background-image: linear-gradient(to right top, #f903af, #f95bc5, #f885d7, #f8a8e6, #f8c8f1)!important;
+}
+.corroxo a{
+    color: azure;
+}
+.corroxo a:hover{
+    color: rgb(163, 1, 238);
+}
+.corroxo a:active{
+    color: rgb(177, 96, 243);
+
+}
+.cor{
+    color: #f903af;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card{
+    background-color: #fcc2f2;
+    color: darkmagenta;
+}
+body{
+    overflow-x: hidden;
+}
+#pagina1{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+}
